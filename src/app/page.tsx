@@ -24,18 +24,18 @@ export default function HomePage() {
           <br />
           代表的な装飾方法を実装してみて体験してみましょう
         </p>
-        <div className="color-red">赤色のテキストにしてみましょう</div>
-        <div className="color-blue">青色のテキストにしてみましょう</div>
-        <div className="color-green">緑色のテキストをカラーコード #4daf50 で設定してみましょう</div>
-        <div className="font-bold">太字のテキストにしてみましょう</div>
-        <div className="font-size-large-px">大きな文字サイズを px 単位で設定してみましょう</div>
-        <div className="font-size-small-px">小さな文字サイズを px 単位で設定してみましょう</div>
-        <div className="font-size-large-em">大きな文字サイズを em 単位で設定してみましょう</div>
-        <div className="font-size-small-em">小さな文字サイズを em 単位で設定してみましょう</div>
-        <div className="font-size-large-per">大きな文字サイズを % 単位で設定してみましょう</div>
-        <div className="font-size-small-per">小さな文字サイズを % 単位で設定してみましょう</div>
-        <div className="text-underline">テキストに下線を設定してみましょう</div>
-        <div className="text-strikethrough">テキストに取り消し線を設定してみましょう</div>
+        <div>赤色のテキストにしてみましょう</div>
+        <div>青色のテキストにしてみましょう</div>
+        <div>緑色のテキストをカラーコード #4daf50 で設定してみましょう</div>
+        <div>太字のテキストにしてみましょう</div>
+        <div>大きな文字サイズを px 単位で設定してみましょう</div>
+        <div>小さな文字サイズを px 単位で設定してみましょう</div>
+        <div>大きな文字サイズを em 単位で設定してみましょう</div>
+        <div>小さな文字サイズを em 単位で設定してみましょう</div>
+        <div>大きな文字サイズを % 単位で設定してみましょう</div>
+        <div>小さな文字サイズを % 単位で設定してみましょう</div>
+        <div>テキストに下線を設定してみましょう</div>
+        <div>テキストに取り消し線を設定してみましょう</div>
       </section>
 
       <section className="section">
@@ -45,21 +45,19 @@ export default function HomePage() {
           <br />
           また、余白の概念も合わせて理解することで、より美しいデザインを表現することができます。
         </p>
-        <div className="background-red">赤色の背景にしてみましょう</div>
-        <div className="background-blue">青色の背景にしてみましょう</div>
-        <div className="background-green">緑色の背景をカラーコード #4daf50 で設定してみましょう</div>
-        <div className="background-red-margin">赤色の背景に margin 余白を設定してみましょう</div>
-        <div className="background-blue-margin">青色の背景に margin 余白を設定してみましょう</div>
-        <div className="background-green-margin">緑色の背景に margin 余白を設定してみましょう</div>
-        <div className="background-red-padding">赤色の背景に padding 余白を設定してみましょう</div>
-        <div className="background-blue-padding">青色の背景に padding 余白を設定してみましょう</div>
-        <div className="background-green-padding">緑色の背景に padding 余白を設定してみましょう</div>
-        <div className="background-red-margin-padding">赤色の背景に marigin と padding の両方を設定してみましょう</div>
-        <div className="background-blue-margin-padding">青色の背景に marigin と padding の両方を設定してみましょう</div>
-        <div className="background-green-margin-padding">
-          緑色の背景に marigin と padding の両方を設定してみましょう
-        </div>
-        <div className="background-image">画像を背景に設定してみましょう</div>
+        <div>赤色の背景にしてみましょう</div>
+        <div>青色の背景にしてみましょう</div>
+        <div>緑色の背景をカラーコード #4daf50 で設定してみましょう</div>
+        <div>赤色の背景に margin 余白を設定してみましょう</div>
+        <div>青色の背景に margin 余白を設定してみましょう</div>
+        <div>緑色の背景に margin 余白を設定してみましょう</div>
+        <div>赤色の背景に padding 余白を設定してみましょう</div>
+        <div>青色の背景に padding 余白を設定してみましょう</div>
+        <div>緑色の背景に padding 余白を設定してみましょう</div>
+        <div>赤色の背景に marigin と padding の両方を設定してみましょう</div>
+        <div>青色の背景に marigin と padding の両方を設定してみましょう</div>
+        <div>緑色の背景に marigin と padding の両方を設定してみましょう</div>
+        <div>画像を背景に設定してみましょう</div>
       </section>
 
       <section className="section">
@@ -76,25 +74,25 @@ export default function HomePage() {
             参考
           </a>
         </p>
-        <div className="flex-container">
-          <div className="flex-item">要素1</div>
-          <div className="flex-item">要素2</div>
-          <div className="flex-item">要素3</div>
+        <div>
+          <div>要素1</div>
+          <div>要素2</div>
+          <div>要素3</div>
         </div>
-        <div className="flex-container-right">
-          <div className="flex-item">右寄せ要素1</div>
-          <div className="flex-item">右寄せ要素2</div>
-          <div className="flex-item">右寄せ要素3</div>
+        <div>
+          <div>右寄せ要素1</div>
+          <div>右寄せ要素2</div>
+          <div>右寄せ要素3</div>
         </div>
-        <div className="flex-container-reverse">
-          <div className="flex-item">逆順要素1</div>
-          <div className="flex-item">逆順要素2</div>
-          <div className="flex-item">逆順要素3</div>
+        <div>
+          <div>逆順要素1</div>
+          <div>逆順要素2</div>
+          <div>逆順要素3</div>
         </div>
-        <div className="flex-container-gap">
-          <div className="flex-item">余白あり要素1</div>
-          <div className="flex-item">余白あり要素2</div>
-          <div className="flex-item">余白あり要素3</div>
+        <div>
+          <div>余白あり要素1</div>
+          <div>余白あり要素2</div>
+          <div>余白あり要素3</div>
         </div>
       </section>
 
@@ -115,11 +113,11 @@ export default function HomePage() {
             参考
           </a>
         </p>
-        <div className="position-relative">relative 要素は単独では何も変化はありません</div>
-        <div className="position-absolute">absolute 要素</div>
-        <div className="position-relative-parent">
-          <div className="position-parent">
-            <div className="position-absolute-child">absolute 要素</div>
+        <div>relative 要素は単独では何も変化はありません</div>
+        <div>absolute 要素</div>
+        <div>
+          <div>
+            <div>absolute 要素</div>
             <p>
               absolute 要素は親要素をたどっていき、直近で一番近い relative 要素を探し、そこを起点として位置を決めます。
               <br />
